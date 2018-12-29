@@ -1,8 +1,8 @@
 class Transfer
-  attr_accessor :bank_account
+  attr_accessor :transfer
   
-  def initialize(bank_account)
-    @bank_account = bank_account
+  def initialize(transfer)
+    @transfer = transfer
   end
     
 end
